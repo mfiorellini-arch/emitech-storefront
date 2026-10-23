@@ -1,0 +1,365 @@
+# Changelog
+
+## 2.0.8
+
+### Patch Changes
+
+- Updated dependencies [[`7090b4c`](https://github.com/bigcommerce/catalyst/commit/7090b4cea20fa67d482e632bc2665ac188bbf902), [`4b2daee`](https://github.com/bigcommerce/catalyst/commit/4b2daeeed3fd82699a98ebac0f00891907d2d8ae), [`9d528fc`](https://github.com/bigcommerce/catalyst/commit/9d528fc7b06c63d56a1882829014c2fd57f4bd99), [`3425ecc`](https://github.com/bigcommerce/catalyst/commit/3425ecc2757c2fb5ccd3c547ae3dc738512848e6), [`b682f25`](https://github.com/bigcommerce/catalyst/commit/b682f25c01e11cd9ccd55e3c5fdd0b6dfb6e3680)]:
+  - @bigcommerce/catalyst@1.5.0
+
+## 2.0.7
+
+### Patch Changes
+
+- Updated dependencies [[`bd061a2`](https://github.com/bigcommerce/catalyst/commit/bd061a25360373e12d7fd18e724f26228d2bf8d2), [`55fb9bc`](https://github.com/bigcommerce/catalyst/commit/55fb9bcae3b918373e187bae14949cfde5be6aab), [`740474d`](https://github.com/bigcommerce/catalyst/commit/740474d7ec279ac119be9adfab54ed0ab16c1d7c), [`00c2f48`](https://github.com/bigcommerce/catalyst/commit/00c2f486582f1cf055edce1d432a7a46c7bfbaef)]:
+  - @bigcommerce/catalyst@1.4.2
+
+## 2.0.6
+
+### Patch Changes
+
+- Updated dependencies [[`039f322`](https://github.com/bigcommerce/catalyst/commit/039f3223287daaeb03800b1b8380dbbe49c4d877), [`118456f`](https://github.com/bigcommerce/catalyst/commit/118456fe627bf2c288725b5bc037d1c6e76b5d42), [`f6db31b`](https://github.com/bigcommerce/catalyst/commit/f6db31b3b20b3b53f1e2eeec9a83ed438b21d283), [`6772c50`](https://github.com/bigcommerce/catalyst/commit/6772c507e1f11f6dc4cabfc71f50805c6e37bc0d)]:
+  - @bigcommerce/catalyst@1.4.1
+
+## 2.0.5
+
+### Patch Changes
+
+- Updated dependencies [[`49a3432`](https://github.com/bigcommerce/catalyst/commit/49a34324925d65dad4e6b3e17d4d0b1d4132c978), [`ed8fc56`](https://github.com/bigcommerce/catalyst/commit/ed8fc56f2f438775e3ce3a9fda1b01f14f586f97), [`cdee279`](https://github.com/bigcommerce/catalyst/commit/cdee279c12705ac0b2cde5377332a390c2ff1345), [`b68192a`](https://github.com/bigcommerce/catalyst/commit/b68192aac81e2f96e7e6dbc28800773bb1ba2f80), [`02aa913`](https://github.com/bigcommerce/catalyst/commit/02aa9134e6b2c9804f7472508bb95c402e89b6e4), [`bb35f22`](https://github.com/bigcommerce/catalyst/commit/bb35f22d180f1d21e35caf12e50fd4aa0deec1e0)]:
+  - @bigcommerce/catalyst@1.4.0
+
+## 2.0.4
+
+### Patch Changes
+
+- Updated dependencies [[`9990a87`](https://github.com/bigcommerce/catalyst/commit/9990a872931d95b38fc8c66cd216ccb0be041bf3), [`eef0c18`](https://github.com/bigcommerce/catalyst/commit/eef0c186544315c68f201ce9bdeccd563f4619aa), [`382bdf5`](https://github.com/bigcommerce/catalyst/commit/382bdf594bcc07425f6f82729659bfe9eaf9696c), [`2ec54df`](https://github.com/bigcommerce/catalyst/commit/2ec54df10b80ee3768fdfa2c611d707ff1e69fc6), [`391f96c`](https://github.com/bigcommerce/catalyst/commit/391f96c159ea482c1e09a519148ec1463d56ea39), [`ce7d1b2`](https://github.com/bigcommerce/catalyst/commit/ce7d1b23ca2b352e9aad2d3f4b112513574156c2), [`5f7e630`](https://github.com/bigcommerce/catalyst/commit/5f7e6306761ab459224638bfd6fd7ede568b0079), [`a78f93c`](https://github.com/bigcommerce/catalyst/commit/a78f93cf72999de13fadd98cb144f1e1c5bc5bb1), [`d263871`](https://github.com/bigcommerce/catalyst/commit/d263871a7aab465be3bffad05c77c5649ac9afaf)]:
+  - @bigcommerce/catalyst@1.3.0
+
+## 2.0.3
+
+### Patch Changes
+
+- Updated dependencies [[`bb04eca`](https://github.com/bigcommerce/catalyst/commit/bb04ecab9e0e905efd04da10536083479f9e8ed3)]:
+  - @bigcommerce/catalyst@1.2.0
+
+## 2.0.2
+
+### Patch Changes
+
+- Updated dependencies [[`bd72110`](https://github.com/bigcommerce/catalyst/commit/bd721106dbded48e823acad6548019d1210258f6)]:
+  - @bigcommerce/catalyst@1.1.1
+
+## 2.0.1
+
+### Patch Changes
+
+- Updated dependencies [[`552cfb5`](https://github.com/bigcommerce/catalyst/commit/552cfb5c59a1e69b92f7018c2ddc3c9b3c5f0c61), [`9565d76`](https://github.com/bigcommerce/catalyst/commit/9565d7636de95327651af0a90ced37a352241be7), [`fea7b30`](https://github.com/bigcommerce/catalyst/commit/fea7b30bab0d1b09dc5bddbe3884317968264760), [`5ca4c61`](https://github.com/bigcommerce/catalyst/commit/5ca4c615ead79bc3bf1b7b1bc3ce1743fddeb12b), [`27373e8`](https://github.com/bigcommerce/catalyst/commit/27373e8a50c9bd0703f474364a7c269947d56179), [`b4e5952`](https://github.com/bigcommerce/catalyst/commit/b4e595210b2a38e24aac98c656581dfbd67a1c8f), [`e3e5ab2`](https://github.com/bigcommerce/catalyst/commit/e3e5ab2e3cae414e6067017b1a8939f472fa1456), [`aadaf27`](https://github.com/bigcommerce/catalyst/commit/aadaf27b72cbbf0889262a26ca44daec54bdbbb4), [`8d9f9a9`](https://github.com/bigcommerce/catalyst/commit/8d9f9a92da07d65ec8c9cc9a45ec1ffb582d96c7), [`0d42b12`](https://github.com/bigcommerce/catalyst/commit/0d42b12a59157eceba1397411de504767d7a309d), [`c1d0f3d`](https://github.com/bigcommerce/catalyst/commit/c1d0f3df789f304f8ce1aa07225cdcc5a110dfa3), [`bf58b13`](https://github.com/bigcommerce/catalyst/commit/bf58b134cd870e04ec585eec465e93ce9481d13b), [`05f600a`](https://github.com/bigcommerce/catalyst/commit/05f600a5fcee8c17927b2b56343f942a2e6d4b2c), [`ce03afb`](https://github.com/bigcommerce/catalyst/commit/ce03afb8e7ef27e4821e99f8fd4e4d94a7654922), [`07cd41c`](https://github.com/bigcommerce/catalyst/commit/07cd41cd5867fd3fc520a7a3fda752f059bf0c5a)]:
+  - @bigcommerce/catalyst@1.1.0
+
+## 2.0.0
+
+### Major Changes
+
+- [#3077](https://github.com/bigcommerce/catalyst/pull/3077) [`a45ab43`](https://github.com/bigcommerce/catalyst/commit/a45ab4346c27e8cc60d6ce64fb597f22dbde2243) Thanks [@jorgemoya](https://github.com/jorgemoya)! - Reduce `create-catalyst` to a thin wrapper that delegates to `catalyst create`. `pnpm create catalyst` / `npx create-catalyst` still scaffold a project — now by invoking `@bigcommerce/catalyst` under the hood — so the scaffolding UX is unchanged. The standalone `init`, `integration`, and `telemetry` subcommands are removed; use `catalyst channel link` and `catalyst telemetry` from the consolidated CLI instead.
+
+### Patch Changes
+
+- Updated dependencies [[`a45ab43`](https://github.com/bigcommerce/catalyst/commit/a45ab4346c27e8cc60d6ce64fb597f22dbde2243)]:
+  - @bigcommerce/catalyst@1.0.0
+
+## 1.1.0
+
+### Minor Changes
+
+- [#3055](https://github.com/bigcommerce/catalyst/pull/3055) [`854aab5`](https://github.com/bigcommerce/catalyst/commit/854aab54d530c71a07360c753cc687fd3944325b) Thanks [@jorgemoya](https://github.com/jorgemoya)! - Deprecate the `create-catalyst integration` command. It now prints a deprecation warning when invoked and is hidden from `--help`. The command builds integration patches by diffing git tags, which won't work once Catalyst projects are distributed as tarballs (no git history) — it will be replaced by the forthcoming `catalyst upgrade` command. The command still functions for now; full removal will follow in a future major version.
+
+## 1.0.3
+
+### Patch Changes
+
+- [#2993](https://github.com/bigcommerce/catalyst/pull/2993) [`ed76224`](https://github.com/bigcommerce/catalyst/commit/ed7622453edc667a3582646074e0ccb72eb7b714) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Update the client id to the new one.
+
+## 1.0.2
+
+### Patch Changes
+
+- [#2940](https://github.com/bigcommerce/catalyst/pull/2940) [`a4b614d`](https://github.com/bigcommerce/catalyst/commit/a4b614d99a208f21b4d4ee1462666581f21335d8) Thanks [@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)! - Align Node.js engine requirement with v24. The `engines.node` field in `create-catalyst` now matches the runtime version gate (`^24.0.0`), ensuring `pnpm create @bigcommerce/catalyst` correctly rejects unsupported Node versions before installation begins.
+
+## 1.0.1
+
+### Patch Changes
+
+- [#2591](https://github.com/bigcommerce/catalyst/pull/2591) [`f791fef`](https://github.com/bigcommerce/catalyst/commit/f791fef1283e1d5a0fabf81fa64140317e99c84e) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Removes `chalk` dependency in favor of `consola` "colorize" utility function (which only depends on `node:tty`)
+
+## 1.0.0
+
+### Major Changes
+
+- [#2435](https://github.com/bigcommerce/catalyst/pull/2435) [`cd4bd60`](https://github.com/bigcommerce/catalyst/commit/cd4bd604739b0cea4b622b08ebbde4cea953fcae) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Release 1.0.0 (see [`core/CHANGELOG.md`](../../core/CHANGELOG.md#100) for more details)
+
+## 0.22.0
+
+### Minor Changes
+
+- [#2296](https://github.com/bigcommerce/catalyst/pull/2296) [`da1f486`](https://github.com/bigcommerce/catalyst/commit/da1f486685544ebe117881caa97d7b0539171531) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Expands the supported Node.js version of the `create-catalyst` CLI to `^20` and `^22`. The version of Node.js required to run the CLI is not necessarily tied to the version of Node.js required to run Catalyst; the CLI requires at least version 18 to run because it depends on global Fetch API support being enabled by default. More context in [#2296](https://github.com/bigcommerce/catalyst/pull/2296).
+
+- [#2136](https://github.com/bigcommerce/catalyst/pull/2136) [`e5f1ac9`](https://github.com/bigcommerce/catalyst/commit/e5f1ac9879319a66187d410a3dc6b2764b15a789) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Support node 22.
+
+### Patch Changes
+
+- [#2017](https://github.com/bigcommerce/catalyst/pull/2017) [`c1519d4`](https://github.com/bigcommerce/catalyst/commit/c1519d4098baa7d21553415e4c794c185b27ec07) Thanks [@RomanKrasinskyi](https://github.com/RomanKrasinskyi)! - Add es-419 to list of allowed locale for selecting in CLI
+
+## 0.21.0
+
+### Minor Changes
+
+- [#1986](https://github.com/bigcommerce/catalyst/pull/1986) [`b3d55a2`](https://github.com/bigcommerce/catalyst/commit/b3d55a2f6df2de2f0ba448eebadd4b6e10e92708) Thanks [@RomanKrasinskyi](https://github.com/RomanKrasinskyi)! - Allow configuration of locales when creating a new channel
+
+### Patch Changes
+
+- [#1957](https://github.com/bigcommerce/catalyst/pull/1957) [`9e1d942`](https://github.com/bigcommerce/catalyst/commit/9e1d942f9376d4e55e92b295dc9febd2310cb22a) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Removes the ability for command injection in the CLI
+
+## 0.20.0
+
+### Minor Changes
+
+- [#1859](https://github.com/bigcommerce/catalyst/pull/1859) [`62d178e`](https://github.com/bigcommerce/catalyst/commit/62d178e61070b4c9be431fe4a02c9344e8b2500c) Thanks [@bookernath](https://github.com/bookernath)! - Set default gh-ref to @bigcommerce/catalyst-core@latest
+
+### Patch Changes
+
+- [#1859](https://github.com/bigcommerce/catalyst/pull/1859) [`62d178e`](https://github.com/bigcommerce/catalyst/commit/62d178e61070b4c9be431fe4a02c9344e8b2500c) Thanks [@bookernath](https://github.com/bookernath)! - Add notice that preview storefront has been deployed
+
+- [#1859](https://github.com/bigcommerce/catalyst/pull/1859) [`62d178e`](https://github.com/bigcommerce/catalyst/commit/62d178e61070b4c9be431fe4a02c9344e8b2500c) Thanks [@bookernath](https://github.com/bookernath)! - Fix --reset-main and improve OTP copying experience
+
+## 0.19.0
+
+### Minor Changes
+
+- [#1820](https://github.com/bigcommerce/catalyst/pull/1820) [`401417d`](https://github.com/bigcommerce/catalyst/commit/401417dfebcf9f9fd3e24a6808205b2563380f1a) Thanks [@bookernath](https://github.com/bookernath)! - Update CLI to use new APIs for consistency with One-Click Catalyst in the control panel
+
+## 0.18.0
+
+### Minor Changes
+
+- [#1732](https://github.com/bigcommerce/catalyst/pull/1732) [`df4912c`](https://github.com/bigcommerce/catalyst/commit/df4912cd4a24a6f8d36359d80834c378df6c6297) Thanks [@jamesqquick](https://github.com/jamesqquick)! - Create command now accepts a --reset-main flag which resets the main branch to the provided git ref if present.
+
+## 0.17.1
+
+### Patch Changes
+
+- [#1700](https://github.com/bigcommerce/catalyst/pull/1700) [`12923a5`](https://github.com/bigcommerce/catalyst/commit/12923a58692c19ae317eac55784f47690de36a1f) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Adds a platform check to check if a command is installed.
+
+## 0.17.0
+
+### Minor Changes
+
+- [#1541](https://github.com/bigcommerce/catalyst/pull/1541) [`20c08da`](https://github.com/bigcommerce/catalyst/commit/20c08dae691b43149099892ffd1fa717310b602f) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Introduce an additional project creation scenario in which projects can be created without prompts if the CLI is provided with a valid `--store-hash`, `--channel-id`, and `--storefront-token`
+
+## 0.16.0
+
+### Minor Changes
+
+- [#1262](https://github.com/bigcommerce/catalyst/pull/1262) [`0c2023b`](https://github.com/bigcommerce/catalyst/commit/0c2023bae650039cd79ba51b1161b5c8c16f0b8d) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Generates a storefront token when using the CLI to init or create a Catalyst storefront.
+
+- [#1262](https://github.com/bigcommerce/catalyst/pull/1262) [`0c2023b`](https://github.com/bigcommerce/catalyst/commit/0c2023bae650039cd79ba51b1161b5c8c16f0b8d) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Remove generating a customer impersonation token as we are using the API Token + Customer Access Token approach"
+
+## 0.15.0
+
+### Minor Changes
+
+- [#1518](https://github.com/bigcommerce/catalyst/pull/1518) [`739bd25`](https://github.com/bigcommerce/catalyst/commit/739bd254593a76cfe351ce216a225d957e390823) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Add the ability to pass in extra, arbitrary environment variables to add to the `.env.local` file created by the Catalyst CLI installer in the format of `pnpm create @bigcommerce/catalyst@latest --env VAR_ONE=VALUE_ONE --env VAR_TWO=VALUE_TWO`
+
+- [#1519](https://github.com/bigcommerce/catalyst/pull/1519) [`630e2ed`](https://github.com/bigcommerce/catalyst/commit/630e2ed4dcca3b245b98efc2de66be81585f1bb5) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Ensures a command is always passed as an event name and provides a allowlist of args to pass as additional properties to the event.
+
+### Patch Changes
+
+- [#1501](https://github.com/bigcommerce/catalyst/pull/1501) [`513a740`](https://github.com/bigcommerce/catalyst/commit/513a7407feab03f5b7c16eb82d6d2826d238cb27) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Adds a identify call on init.
+
+## 0.14.3
+
+### Patch Changes
+
+- [#1492](https://github.com/bigcommerce/catalyst/pull/1492) [`0b28a4c`](https://github.com/bigcommerce/catalyst/commit/0b28a4c7d8f71f677e81788655d2bc70d41c4882) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Default to the `create` command when running the preCommand hook.
+
+## 0.14.2
+
+### Patch Changes
+
+- [#1488](https://github.com/bigcommerce/catalyst/pull/1488) [`1bbc3f8`](https://github.com/bigcommerce/catalyst/commit/1bbc3f85fd56572b3a6cfe24e5be551d0e8f8488) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Noop commit to rebuild CLI.
+
+## 0.14.1
+
+### Patch Changes
+
+- [#1480](https://github.com/bigcommerce/catalyst/pull/1480) [`eb1707b`](https://github.com/bigcommerce/catalyst/commit/eb1707b7845f9f6ca68afa32c1469459c58b9505) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Fix the CLI from hanging while waiting for segment.
+
+## 0.14.0
+
+### Minor Changes
+
+- [#1478](https://github.com/bigcommerce/catalyst/pull/1478) [`7d66252`](https://github.com/bigcommerce/catalyst/commit/7d6625263bf87aa19b6c05c190729d8b147ca7a8) Thanks [@bookernath](https://github.com/bookernath)! - Update OAuth scopes to future needs
+
+- [#1479](https://github.com/bigcommerce/catalyst/pull/1479) [`a7ce4b3`](https://github.com/bigcommerce/catalyst/commit/a7ce4b341ad8b69a001e03ff5050e3c70c7dca1b) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Adds telemetry collection to the CLI. If users want to opt out of CLI telemetry collection, use `pnpm create @bigcommerce/catalyst telemetry disable` or use the `CATALYST_TELEMETRY_DISABLED` environment variable to opt-out.
+
+## 0.13.0
+
+### Minor Changes
+
+- [#1443](https://github.com/bigcommerce/catalyst/pull/1443) [`c166d53`](https://github.com/bigcommerce/catalyst/commit/c166d536394ec8b32831aa384868d0cabc5d86e2) Thanks [@matthewvolk](https://github.com/matthewvolk)! - BREAKING: Remove automatic generation of GraphQL type definitions on project creation. This results in faster project creation and generation will happen already as part of starting the development sever or kicking off a build
+
+- [#1438](https://github.com/bigcommerce/catalyst/pull/1438) [`d12c0d2`](https://github.com/bigcommerce/catalyst/commit/d12c0d22ec121f0effb95e1fab347a05ca84c7af) Thanks [@matthewvolk](https://github.com/matthewvolk)! - BREAKING: Refactor `cloneCatalyst` so that it simply clones the `bigcommerce/catalyst` repo, configures remotes, and checks out an optional ref
+
+- [#1440](https://github.com/bigcommerce/catalyst/pull/1440) [`5b3cbbd`](https://github.com/bigcommerce/catalyst/commit/5b3cbbd75ec05b6a21062b600a930f15e1c004a4) Thanks [@matthewvolk](https://github.com/matthewvolk)! - BREAKING: Refactor `installDependencies` so that it installs all dependencies found in the root package.json file of the monorepo
+
+- [#1435](https://github.com/bigcommerce/catalyst/pull/1435) [`b38209f`](https://github.com/bigcommerce/catalyst/commit/b38209f93345ebc6584fe3486e10ca5baadf17ec) Thanks [@matthewvolk](https://github.com/matthewvolk)! - BREAKING: Ensure `pnpm` is installed on the machine running the CLI
+
+- [#1434](https://github.com/bigcommerce/catalyst/pull/1434) [`c105d07`](https://github.com/bigcommerce/catalyst/commit/c105d07695f1d1070ce6774e4b33037633e97e28) Thanks [@matthewvolk](https://github.com/matthewvolk)! - BREAKING: Change required Node.js version to `^20` (instead of `>=20`)
+
+- [#1441](https://github.com/bigcommerce/catalyst/pull/1441) [`5463157`](https://github.com/bigcommerce/catalyst/commit/5463157ed6060880dd22e60e1c7caba38dd3cbb5) Thanks [@matthewvolk](https://github.com/matthewvolk)! - BREAKING: Remove `pm` utility because the package manager must be `pnpm` when working in the monorepo
+
+- [#1436](https://github.com/bigcommerce/catalyst/pull/1436) [`673bea2`](https://github.com/bigcommerce/catalyst/commit/673bea2bef3d7b80267c7f0c8b204b652fd09f34) Thanks [@matthewvolk](https://github.com/matthewvolk)! - BREAKING: Ensure `git` is installed on the machine running the CLI
+
+- [#1437](https://github.com/bigcommerce/catalyst/pull/1437) [`6db8527`](https://github.com/bigcommerce/catalyst/commit/6db8527042d3c0b04b6b0a61c56f3cc2ef8eeff7) Thanks [@matthewvolk](https://github.com/matthewvolk)! - BREAKING: Remove `applyIntegrations`. Integrations will now be applied by simply fetching the appropriate remote `integrations/*` branch from upstream, and cherry-picking the integration code
+
+### Patch Changes
+
+- [#1439](https://github.com/bigcommerce/catalyst/pull/1439) [`addf5e9`](https://github.com/bigcommerce/catalyst/commit/addf5e98a08427631e03ef152efe6949a5d01b9e) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Removes unused `getLatestCoreTag` function
+
+- [#1433](https://github.com/bigcommerce/catalyst/pull/1433) [`ea74be2`](https://github.com/bigcommerce/catalyst/commit/ea74be2b0c066b8f9e99c1e1b64ef1b97ea4b7f5) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Add function to allow user to specify an arbitrary ref to checkout after cloning
+
+- [#1431](https://github.com/bigcommerce/catalyst/pull/1431) [`3a3370e`](https://github.com/bigcommerce/catalyst/commit/3a3370e2323a82dd753cf22042b9cd9130c3a7a0) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Adds a typeguard to narrow Errors thrown by `execSync` to be of the type `ExecException`
+
+- [#1432](https://github.com/bigcommerce/catalyst/pull/1432) [`5a2a86e`](https://github.com/bigcommerce/catalyst/commit/5a2a86ecbe8ab831c54b60d2f723274cabc00d98) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Adds a function to check if a user is set up with SSH authentication for GitHub
+
+## 0.12.0
+
+### Minor Changes
+
+- [#1365](https://github.com/bigcommerce/catalyst/pull/1365) [`896b4d3`](https://github.com/bigcommerce/catalyst/commit/896b4d359cea39536f41c3fa3427fb6bf429d196) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Changes the default behavior of the `create-catalyst` CLI such that it no longer writes the access token created by the OAuth device flow to the created project's `.env.local` file
+
+- [#1366](https://github.com/bigcommerce/catalyst/pull/1366) [`6d7c508`](https://github.com/bigcommerce/catalyst/commit/6d7c508b453d9e2cbe073b9ab7a7844220c2d22c) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Renames leftover `NEXT_PUBLIC_DEFAULT_REVALIDATE_TARGET` environment variables - continuation of bigcommerce/catalyst#1317
+
+## 0.11.0
+
+### Minor Changes
+
+- [#1267](https://github.com/bigcommerce/catalyst/pull/1267) [`d442efc`](https://github.com/bigcommerce/catalyst/commit/d442efcbdbf73f3d6f2e57ddc18049fffc727deb) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Added initial Makeswift integration source folder, which allows developers to create new Catalyst storefronts that are integrated with Makeswift out of the box by running:
+
+  ```sh
+  pnpm create @bigcommerce/catalyst@latest --integration=makeswift
+  ```
+
+- [#1266](https://github.com/bigcommerce/catalyst/pull/1266) [`6fa0d48`](https://github.com/bigcommerce/catalyst/commit/6fa0d4874e5f7c05cc43019efe8ca4838b504ca1) Thanks [@matthewvolk](https://github.com/matthewvolk)! - remove already completed todo comment
+
+## 0.10.0
+
+### Minor Changes
+
+- [#1192](https://github.com/bigcommerce/catalyst/pull/1192) [`d7d5a96`](https://github.com/bigcommerce/catalyst/commit/d7d5a961498053182a2d075ceb01f45c06f9cbec) Thanks [@matthewvolk](https://github.com/matthewvolk)! - add `integration` command to help with developing native Catalyst integrations
+
+- [#1193](https://github.com/bigcommerce/catalyst/pull/1193) [`aa72351`](https://github.com/bigcommerce/catalyst/commit/aa72351dc37094518e29849fc590dd10044fa955) Thanks [@matthewvolk](https://github.com/matthewvolk)! - add `--integration` option to `create-catalyst` to apply an integration to your newly created storefront
+
+- [#1242](https://github.com/bigcommerce/catalyst/pull/1242) [`733535a`](https://github.com/bigcommerce/catalyst/commit/733535ae4c12b93972b26471b1022cdfd925ed96) Thanks [@matthewvolk](https://github.com/matthewvolk)! - fix: define a single source of truth for integrations manifest file
+
+### Patch Changes
+
+- [#1240](https://github.com/bigcommerce/catalyst/pull/1240) [`dc2cc0d`](https://github.com/bigcommerce/catalyst/commit/dc2cc0d92ce81ae84d61881b2e933e3693f73151) Thanks [@matthewvolk](https://github.com/matthewvolk)! - refactor: parse env using `dotenv` package
+
+## 0.9.0
+
+### Minor Changes
+
+- [#1083](https://github.com/bigcommerce/catalyst/pull/1083) [`bd6be02`](https://github.com/bigcommerce/catalyst/commit/bd6be02d3d3547be6c014c581e1937278ed20d0a) Thanks [@bookernath](https://github.com/bookernath)! - Generate multi-channel GraphQL Storefront API tokens on catalyst provisioning
+
+## 0.8.0
+
+### Minor Changes
+
+- [#936](https://github.com/bigcommerce/catalyst/pull/936) [`8416cd0`](https://github.com/bigcommerce/catalyst/commit/8416cd068c541c9e298ca31422ba5954a59dc868) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Adds more helpful error messaging when using older versions of Node (<12) with the CLI
+
+### Patch Changes
+
+- [#935](https://github.com/bigcommerce/catalyst/pull/935) [`9e9c0e9`](https://github.com/bigcommerce/catalyst/commit/9e9c0e93d707edd160d5cfd7156ab26e45a4847a) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Move CLI command configuration closer to command action handlers
+
+## 0.7.0
+
+### Minor Changes
+
+- [#921](https://github.com/bigcommerce/catalyst/pull/921) [`e093e7c`](https://github.com/bigcommerce/catalyst/commit/e093e7c6db06920718fa76591a7a776f3c575ae4) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Removes unnecessary lint task from create command
+
+## 0.6.0
+
+### Minor Changes
+
+- [#782](https://github.com/bigcommerce/catalyst/pull/782) [`32f9d7c`](https://github.com/bigcommerce/catalyst/commit/32f9d7cad0529591d771106efe3e9cace48e50db) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Adds the `.vscode/settings.json` file pointing to the correct typescript sdk for gql-tada support.
+
+- [#806](https://github.com/bigcommerce/catalyst/pull/806) [`5655f81`](https://github.com/bigcommerce/catalyst/commit/5655f81f93041e6b1253d0c67ce50f70f99828bf) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Adds an option to include the functional test suite as part of the create command. Defaults to false.
+
+- [#876](https://github.com/bigcommerce/catalyst/pull/876) [`56735be`](https://github.com/bigcommerce/catalyst/commit/56735be7bef1f528642e333b20400268613dace6) Thanks [@matthewvolk](https://github.com/matthewvolk)! - The `create-catalyst` CLI will now create channel menus for new Catalyst channels
+
+### Patch Changes
+
+- [#839](https://github.com/bigcommerce/catalyst/pull/839) [`0e5e513`](https://github.com/bigcommerce/catalyst/commit/0e5e5139ced4410e0930e36b7eafa5841e2301c5) Thanks [@jorgemoya](https://github.com/jorgemoya)! - Remove cloning logic for components.
+
+## 0.5.0
+
+### Minor Changes
+
+- [#753](https://github.com/bigcommerce/catalyst/pull/753) [`48c040e`](https://github.com/bigcommerce/catalyst/commit/48c040e94745134f4c60b15cadcdb0a0bbcb2a36) Thanks [@chanceaclark](https://github.com/chanceaclark)! - Deprecate `node@18` in favor of latest LTS version `node@20`.
+
+## 0.4.1
+
+### Patch Changes
+
+- [#740](https://github.com/bigcommerce/catalyst/pull/740) [`d586c21`](https://github.com/bigcommerce/catalyst/commit/d586c2122bf6513b2f7d923957636c7ea8aaf2ce) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore: bump next-auth and use string for user id
+
+## 0.4.0
+
+### Minor Changes
+
+- [#712](https://github.com/bigcommerce/catalyst/pull/712) [`8ad9d15`](https://github.com/bigcommerce/catalyst/commit/8ad9d15ffd6cb1cc0a53b2df1eff76efe21527a4) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Change the default GitHub Ref that the CLI uses to clone `bigcommerce/catalyst-core` from `main` to latest published release (e.g., `@bigcommerce/catalyst-core@0.3.0`)
+
+### Patch Changes
+
+- [#735](https://github.com/bigcommerce/catalyst/pull/735) [`3db9c5f`](https://github.com/bigcommerce/catalyst/commit/3db9c5fa603299a5c5a9a12bd5408f9024677b20) Thanks [@deini](https://github.com/deini)! - Bump dependencies
+
+## 0.3.0
+
+### Minor Changes
+
+- [#696](https://github.com/bigcommerce/catalyst/pull/696) [`6deba4a`](https://github.com/bigcommerce/catalyst/commit/6deba4a0713b0d14a76439f0cd01baf35f5185e2) Thanks [@deini](https://github.com/deini)! - removes graphql codegen setup, all graphql calls are done using gql.tada
+
+### Patch Changes
+
+- [#699](https://github.com/bigcommerce/catalyst/pull/699) [`30f6515`](https://github.com/bigcommerce/catalyst/commit/30f65153a94abf689b053fbc9acff3cd297398c0) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Support `@` characters in the `create-catalyst` `--gh-ref` CLI flag
+
+## 0.2.2
+
+### Patch Changes
+
+- [#686](https://github.com/bigcommerce/catalyst/pull/686) [`278ad5f`](https://github.com/bigcommerce/catalyst/commit/278ad5f9d389b8cb20dd32007850e937b8d494bd) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Install latest versions of all Catalyst workspace dependencies during project creation
+
+## 0.2.1
+
+### Patch Changes
+
+- [#684](https://github.com/bigcommerce/catalyst/pull/684) [`1e12797`](https://github.com/bigcommerce/catalyst/commit/1e127977eedca306c58f3e243d7367f52ea7f077) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Adjust order of `package.json` properties created by the CLI
+
+## 0.2.0
+
+### Minor Changes
+
+- [#658](https://github.com/bigcommerce/catalyst/pull/658) [`8ff2eb6`](https://github.com/bigcommerce/catalyst/commit/8ff2eb65acaf973cf7d30833c14238338c57ec44) Thanks [@matthewvolk](https://github.com/matthewvolk)! - create graphql schema using gql.tada
+
+### Patch Changes
+
+- [#670](https://github.com/bigcommerce/catalyst/pull/670) [`efd6387`](https://github.com/bigcommerce/catalyst/commit/efd63874361726077798bf29a1f531c58bfdd0aa) Thanks [@matthewvolk](https://github.com/matthewvolk)! - use `--prefix` npm flag to set `cwd` for GraphQL schema generation insead of `exec`'s `cwd` option
+
+## 0.1.1
+
+### Patch Changes
+
+- [#648](https://github.com/bigcommerce/catalyst/pull/648) [`604f60a`](https://github.com/bigcommerce/catalyst/commit/604f60a7550a10de9e8127b4c195998b70fb98df) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Bump `zod-validation-error` in `@bigcommerce/create-catalyst` to `^3.0.3`. This fixes a recently discovered bug that was caused by `zod-validation-error@3.0.2`.
+
+- [#653](https://github.com/bigcommerce/catalyst/pull/653) [`ffaa8ee`](https://github.com/bigcommerce/catalyst/commit/ffaa8eef6da0b96bef58ab0a9b00e34c08cb3535) Thanks [@matthewvolk](https://github.com/matthewvolk)! - Update `@bigcommerce/create-catalyst` readme with more detailed usage
+  All notable changes to this project will be documented in this file.
