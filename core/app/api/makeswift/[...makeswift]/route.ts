@@ -32,9 +32,9 @@ const handler = MakeswiftApiHandler(process.env.MAKESWIFT_SITE_API_KEY, {
         variants: defaultVariants,
       },
       {
-        family: 'var(--font-family-dm-serif-text)',
-        label: 'DM Serif Text',
-        variants: [{ weight: '400', style: 'normal' }],
+        family: 'var(--font-family-space-grotesk)',
+        label: 'Space Grotesk',
+        variants: defaultVariants,
       },
       {
         family: 'var(--font-family-roboto-mono)',

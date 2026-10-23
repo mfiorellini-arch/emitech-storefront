@@ -1,4 +1,4 @@
-import { DM_Serif_Text, Inter, Roboto_Mono } from 'next/font/google';
+import { Inter, Roboto_Mono, Space_Grotesk } from 'next/font/google';
 
 export const inter = Inter({
   display: 'swap',
@@ -6,11 +6,10 @@ export const inter = Inter({
   variable: '--font-family-inter',
 });
 
-export const dmSerifText = DM_Serif_Text({
+export const spaceGrotesk = Space_Grotesk({
   display: 'swap',
   subsets: ['latin'],
-  weight: '400',
-  variable: '--font-family-dm-serif-text',
+  variable: '--font-family-space-grotesk',
 });
 
 export const robotoMono = Roboto_Mono({
@@ -19,4 +18,4 @@ export const robotoMono = Roboto_Mono({
   variable: '--font-family-roboto-mono',
 });
 
-export const fonts = [inter, dmSerifText, robotoMono];
+export const fonts = [inter, spaceGrotesk, robotoMono];

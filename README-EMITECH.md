@@ -40,6 +40,15 @@ cp core/.env.example core/.env.local   # poi compilare i valori
 pnpm dev
 ```
 
+## Home page e skin
+
+- Palette in `core/globals.css` e `core/lib/makeswift/components/site-theme/base-colors.tsx` (antracite `215 20% 10%` + verde `145 70% 55%`).
+- Font: Space Grotesk per i titoli, Inter per il testo, Roboto Mono per gli accenti (`core/app/fonts.ts`).
+- La home (`core/app/[locale]/(default)/page.tsx`) è scritta in codice: hero, griglia categorie (prese da BigCommerce), prodotti in evidenza, "come funziona", novità, fascia B2B, newsletter. Se su Makeswift viene pubblicata una pagina sul path `/`, quella sostituisce la home in codice.
+- Testi in `core/messages/it.json` e `en.json`, namespace `Home`.
+- Logo: viene letto dalle impostazioni dello store BigCommerce (Store Settings → Storefront → Logo). Finché non c'è il logo definitivo, impostare il logo testuale "Emi_Tech".
+- Le CTA B2B puntano a `/b2b`, pagina da creare su BigCommerce (Web Pages) con il form preventivo.
+
 ## Deploy
 
-Vercel, root directory `core`, framework Next.js, package manager pnpm. Dominio di produzione `emi-tech.it` (DNS su Serverplan).
+Vercel, root directory `core`, framework Next.js, package manager pnpm, **Node 24** (Catalyst richiede `>=24`, va impostato nelle Project Settings di Vercel). Il comando di build lancia prima `generate`, che scarica lo schema GraphQL dello store, quindi servono store hash, channel id e storefront token tra le variabili d'ambiente già in fase di build. Dominio di produzione `emi-tech.it` (DNS su Serverplan).

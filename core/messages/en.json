@@ -35,6 +35,56 @@
       "emptyStateSubtitle": "Try browsing our complete catalog of products.",
       "previousProducts": "Previous products",
       "nextProducts": "Next products"
+    },
+    "Meta": {
+      "title": "Emi_Tech — Refurbished PCs, guaranteed",
+      "description": "Refurbished notebooks, desktops and monitors, tested one by one and sold with warranty. For individuals and businesses."
+    },
+    "Hero": {
+      "eyebrow": "Refurbished in Romagna, Italy",
+      "title": "Refurbished PCs, tested and guaranteed",
+      "description": "We recover high-end business computers, bring them back to life and resell them at a fraction of the price. Less waste, more good tech in circulation.",
+      "primaryCta": "Browse the catalog",
+      "secondaryCta": "Buying for a business?",
+      "Proof1": {
+        "title": "Tested one by one",
+        "text": "Every unit goes through a full check before it goes online."
+      },
+      "Proof2": {
+        "title": "Warranty included",
+        "text": "If something goes wrong, we fix it or replace it."
+      },
+      "Proof3": {
+        "title": "Ready to use",
+        "text": "Operating system installed, cleaned and carefully packed."
+      }
+    },
+    "Categories": {
+      "title": "What you'll find",
+      "cta": "Full catalog",
+      "empty": "The catalog is filling up, check back soon."
+    },
+    "HowItWorks": {
+      "title": "How it works",
+      "description": "From recovery to your desk in three steps.",
+      "Step1": {
+        "title": "We recover",
+        "text": "We collect end-of-cycle business fleets, often just a few years old."
+      },
+      "Step2": {
+        "title": "We refurbish",
+        "text": "Certified data wiping, hardware testing, cleaning, replacement of whatever is needed."
+      },
+      "Step3": {
+        "title": "We resell",
+        "text": "Batches and single units in the catalog, with clear pricing and warranty."
+      }
+    },
+    "B2B": {
+      "eyebrow": "For businesses and schools",
+      "title": "Need a batch? Let's talk.",
+      "description": "Multiple units, uniform configurations, invoice and bank transfer. Tell us what you need and we'll send you a quote.",
+      "cta": "Request a quote"
     }
   },
   "Auth": {

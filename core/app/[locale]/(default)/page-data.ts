@@ -47,6 +47,14 @@ const HomePageQuery = graphql(
   `
     query HomePageQuery($currencyCode: currencyCode) {
       site {
+        categoryTree {
+          name
+          path
+          image {
+            url: urlTemplate(lossy: true)
+            altText
+          }
+        }
         featuredProducts(first: 12) {
           edges {
             node {
