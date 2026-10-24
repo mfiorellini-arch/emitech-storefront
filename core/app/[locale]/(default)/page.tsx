@@ -10,7 +10,7 @@ import { Subscribe } from '~/components/subscribe';
 import { productCardTransformer } from '~/data-transformers/product-card-transformer';
 import { getPreferredCurrencyCode } from '~/lib/currency';
 import { getMakeswiftPageMetadata } from '~/lib/makeswift';
-import { getPageSnapshot } from '~/lib/makeswift/client';
+import { getOptionalPageSnapshot } from '~/lib/makeswift/client';
 import { MakeswiftPageShim } from '~/lib/makeswift/makeswift-page-shim';
 import { getMetadataAlternates } from '~/lib/seo/canonical';
 
@@ -47,7 +47,7 @@ export default async function Home({ params }: Props) {
 
   setRequestLocale(locale);
 
-  const snapshot = await getPageSnapshot({ path: '/', locale });
+  const snapshot = await getOptionalPageSnapshot({ path: '/', locale });
 
   if (snapshot != null) {
     return <MakeswiftPageShim metadata={false} snapshot={snapshot} />;

@@ -1,6 +1,6 @@
 import { Slot as MakeswiftSlot } from '@makeswift/runtime/next';
 
-import { getComponentSnapshot } from './client';
+import { getOptionalComponentSnapshot } from './client';
 
 export async function Slot({
   snapshotId,
@@ -11,7 +11,9 @@ export async function Slot({
   label: string;
   fallback?: React.ReactNode;
 }) {
-  const snapshot = await getComponentSnapshot(snapshotId);
+  const snapshot = await getOptionalComponentSnapshot(snapshotId);
+
+  if (snapshot == null) return fallback ?? null;
 
   return <MakeswiftSlot fallback={fallback} label={label} snapshot={snapshot} />;
 }

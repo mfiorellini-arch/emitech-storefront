@@ -2,7 +2,7 @@ import { MakeswiftComponent } from '@makeswift/runtime/next';
 import { type ComponentPropsWithoutRef } from 'react';
 
 import { HeaderSection } from '@/vibes/soul/sections/header-section';
-import { getComponentSnapshot } from '~/lib/makeswift/client';
+import { getOptionalComponentSnapshot } from '~/lib/makeswift/client';
 
 import { PropsContextProvider } from './client';
 import { COMPONENT_TYPE } from './register';
@@ -18,8 +18,12 @@ export const SiteHeader = async ({
   navigation,
   ...props
 }: Props) => {
-  const snapshot = await getComponentSnapshot(snapshotId);
+  const snapshot = await getOptionalComponentSnapshot(snapshotId);
   const links = await navigation.links;
+
+  if (snapshot == null) {
+    return <HeaderSection {...props} navigation={{ ...navigation, links }} />;
+  }
 
   return (
     <PropsContextProvider value={{ ...props, navigation: { ...navigation, links } }}>

@@ -2,7 +2,7 @@ import { MakeswiftComponent } from '@makeswift/runtime/next';
 import { type ComponentPropsWithoutRef } from 'react';
 
 import { Footer as VibesFooter } from '@/vibes/soul/sections/footer';
-import { getComponentSnapshot } from '~/lib/makeswift/client';
+import { getOptionalComponentSnapshot } from '~/lib/makeswift/client';
 
 import { PropsContextProvider } from './client';
 import { COMPONENT_TYPE } from './register';
@@ -19,9 +19,13 @@ export const SiteFooter = async ({
   sections: streamableSections,
   ...props
 }: Props) => {
-  const snapshot = await getComponentSnapshot(snapshotId);
+  const snapshot = await getOptionalComponentSnapshot(snapshotId);
   const logo = await streamableLogo;
   const sections = await streamableSections;
+
+  if (snapshot == null) {
+    return <VibesFooter {...props} logo={logo} sections={sections} />;
+  }
 
   return (
     <PropsContextProvider value={{ ...props, logo, sections }}>
