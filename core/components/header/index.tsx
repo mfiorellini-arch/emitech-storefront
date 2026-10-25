@@ -8,8 +8,8 @@ import { client } from '~/client';
 import { graphql, readFragment } from '~/client/graphql';
 import { revalidate } from '~/client/revalidate-target';
 import { TAGS } from '~/client/tags';
-import { logoTransformer } from '~/data-transformers/logo-transformer';
 import { getLocaleRouting } from '~/i18n/locale-config';
+import { brandLogo } from '~/lib/brand';
 import { getCartId } from '~/lib/cart';
 import { getPreferredCurrencyCode } from '~/lib/currency';
 import { SiteHeader as HeaderSection } from '~/lib/makeswift/components/site-header';
@@ -77,7 +77,7 @@ export const Header = async () => {
 
   const data = await getHeaderData();
 
-  const logo = data.settings ? logoTransformer(data.settings) : '';
+  const logo = brandLogo;
 
   const localeRouting = await getLocaleRouting();
 

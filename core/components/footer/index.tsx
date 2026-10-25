@@ -16,7 +16,7 @@ import { client } from '~/client';
 import { readFragment } from '~/client/graphql';
 import { revalidate } from '~/client/revalidate-target';
 import { CurrencyCode } from '~/components/header/fragment';
-import { logoTransformer } from '~/data-transformers/logo-transformer';
+import { brandLogo } from '~/lib/brand';
 import { getPreferredCurrencyCode } from '~/lib/currency';
 import { SiteFooter as FooterSection } from '~/lib/makeswift/components/site-footer';
 
@@ -75,9 +75,9 @@ export const Footer = async () => {
   const t = await getTranslations('Components.Footer');
   const data = await getFooterData();
 
-  const logo = data.settings ? logoTransformer(data.settings) : '';
+  const logo = brandLogo;
 
-  const copyright = `© ${new Date().getFullYear()} ${data.settings?.storeName} – Powered by BigCommerce`;
+  const copyright = `© ${new Date().getFullYear()} ${data.settings?.storeName}`;
 
   const contactInformation = data.settings?.contact
     ? {
