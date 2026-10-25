@@ -27,13 +27,14 @@ export const config = {
      * - _next/static (static files)
      * - _next/image (image optimization files)
      * - _vercel (vercel internals, eg: web vitals)
-     * - favicon.ico (favicon file)
+     * - favicon.ico, icon.svg, apple-icon.png (site icons)
+     * - brand/ (Emi-Tech logo assets in public/brand)
      * - admin (admin panel)
      * - sitemap.xml (sitemap route)
      * - xmlsitemap.php (legacy sitemap route)
      * - robots.txt (robots route)
      */
-    '/((?!api|admin|_next/static|_next/image|_vercel|favicon.ico|xmlsitemap.php|sitemap.xml|robots.txt).*)',
+    '/((?!api|admin|_next/static|_next/image|_vercel|favicon.ico|icon.svg|apple-icon.png|brand/|xmlsitemap.php|sitemap.xml|robots.txt).*)',
     /*
      * UCP endpoints, proxied to the store's canonical domain by `withUcpProxy`. Declared
      * separately so the `api` exclusion above keeps applying to every other API route.
