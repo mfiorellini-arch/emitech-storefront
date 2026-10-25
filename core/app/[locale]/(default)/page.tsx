@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 // Home page strategy: if a Makeswift page is published at `/` for this locale, it wins and can be
-// edited visually. Otherwise we render the code-defined Emi_Tech home below, which ships at launch.
+// edited visually. Otherwise we render the code-defined Emi-Tech home below, which ships at launch.
 export default async function Home({ params }: Props) {
   const { locale } = await params;
 
