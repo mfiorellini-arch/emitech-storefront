@@ -454,14 +454,23 @@ export default async function Product({ params, searchParams }: Props) {
         name: t('ProductDetails.Accordions.sku'),
         value: product.sku,
       },
-      {
-        name: t('ProductDetails.Accordions.weight'),
-        value: `${product.weight?.value} ${product.weight?.unit}`,
-      },
-      {
-        name: t('ProductDetails.Accordions.condition'),
-        value: product.condition,
-      },
+      // Weight is only shown when the catalog has a real value (refurbished PCs are imported at 0).
+      ...(product.weight?.value
+        ? [
+            {
+              name: t('ProductDetails.Accordions.weight'),
+              value: `${product.weight.value} ${product.weight.unit}`,
+            },
+          ]
+        : []),
+      ...(product.condition
+        ? [
+            {
+              name: t('ProductDetails.Accordions.condition'),
+              value: t(`ProductDetails.Accordions.Condition.${product.condition}`),
+            },
+          ]
+        : []),
       ...customFields.map((field) => ({
         name: field.name,
         value: field.value,

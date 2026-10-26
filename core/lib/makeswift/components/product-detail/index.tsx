@@ -1,11 +1,7 @@
 import { Component } from '~/lib/makeswift/component';
 
-import {
-  type Props as ClientProps,
-  DescriptionSource,
-  MakeswiftProductDetail,
-  PropsContextProvider,
-} from './client';
+import { type Props as ClientProps, MakeswiftProductDetail, PropsContextProvider } from './client';
+import { DescriptionSource } from './description-source';
 import { COMPONENT_TYPE } from './register';
 
 type Props = ClientProps & { productId: number };

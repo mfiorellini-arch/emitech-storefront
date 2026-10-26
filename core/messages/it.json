@@ -604,7 +604,12 @@
         "warranty": "Garanzia",
         "sku": "SKU",
         "weight": "Peso",
-        "condition": "Condizioni"
+        "condition": "Condizioni",
+        "Condition": {
+          "NEW": "Nuovo",
+          "USED": "Usato",
+          "REFURBISHED": "Ricondizionato"
+        }
       }
     },
     "RelatedProducts": {

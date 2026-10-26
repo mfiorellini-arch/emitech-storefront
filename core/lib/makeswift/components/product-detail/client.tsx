@@ -15,6 +15,8 @@ import { Stream, type Streamable } from '@/vibes/soul/lib/streamable';
 import { ProductDetail, ProductDetailSkeleton } from '@/vibes/soul/sections/product-detail';
 import { mergeSections } from '~/lib/makeswift/utils/merge-sections';
 
+import { DescriptionSource } from './description-source';
+
 type VibesProductDetailProps = ComponentPropsWithoutRef<typeof ProductDetail>;
 type VibesProductDetail = Exclude<Awaited<VibesProductDetailProps['product']>, null>;
 
@@ -26,19 +28,13 @@ export type Props = Omit<VibesProductDetailProps, 'product'> & {
   product: Streamable<ProductDetail>;
 };
 
+export { DescriptionSource };
+
 const PropsContext = createContext<Props | null>(null);
 
 export const PropsContextProvider = ({ value, children }: PropsWithChildren<{ value: Props }>) => (
   <PropsContext.Provider value={value}>{children}</PropsContext.Provider>
 );
-
-export const DescriptionSource = {
-  CatalogPlainText: 'CatalogPlainText',
-  CatalogRichText: 'CatalogRichText',
-  Custom: 'Custom',
-} as const;
-
-type DescriptionSource = (typeof DescriptionSource)[keyof typeof DescriptionSource];
 
 interface EditableProps {
   summaryText: string | undefined;
