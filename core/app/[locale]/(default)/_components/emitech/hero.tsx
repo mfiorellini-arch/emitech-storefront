@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import type { CSSProperties } from 'react';
 
 import { ButtonLink } from '@/vibes/soul/primitives/button-link';
 
@@ -30,10 +31,16 @@ export function Hero() {
             {t('primaryCta')}
           </ButtonLink>
           <ButtonLink
-            className="border-background/30 text-background"
             href="/b2b"
             size="large"
-            variant="tertiary"
+            style={
+              {
+                '--button-ghost-text': 'hsl(var(--background))',
+                '--button-ghost-border': 'hsl(var(--background) / 40%)',
+                '--button-ghost-background-hover': 'hsl(var(--background) / 12%)',
+              } as CSSProperties
+            }
+            variant="ghost"
           >
             {t('secondaryCta')}
           </ButtonLink>

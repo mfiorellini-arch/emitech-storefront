@@ -112,7 +112,7 @@ export const Header = async () => {
    */
     const slicedTree = categoryTree.slice(0, 6);
 
-    return slicedTree.map(({ name, path, children }) => ({
+    const categoryLinks = slicedTree.map(({ name, path, children }) => ({
       label: name,
       href: path,
       groups: children.map((firstChild) => ({
@@ -124,6 +124,9 @@ export const Header = async () => {
         })),
       })),
     }));
+
+    // "All products" is a code route (/shop-all), not a BigCommerce category, so it is added here.
+    return [{ label: t('allProducts'), href: '/shop-all', groups: [] }, ...categoryLinks];
   });
 
   const streamableGiftCertificatesEnabled = Streamable.from(async () => {

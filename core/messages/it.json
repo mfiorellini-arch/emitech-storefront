@@ -702,7 +702,8 @@
         "somethingWentWrong": "Si è verificato un errore. Riprova.",
         "inputPlaceholder": "Cerca prodotti, categorie, marchi...",
         "submitLabel": "Cerca"
-      }
+      },
+      "allProducts": "Tutti i prodotti"
     },
     "Footer": {
       "home": "Home",

@@ -702,7 +702,8 @@
         "somethingWentWrong": "Something went wrong. Please try again.",
         "inputPlaceholder": "Search products, categories, brands...",
         "submitLabel": "Search"
-      }
+      },
+      "allProducts": "All products"
     },
     "Footer": {
       "home": "Home",
