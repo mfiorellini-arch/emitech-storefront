@@ -4,7 +4,6 @@ import { getFormatter, getTranslations, setRequestLocale } from 'next-intl/serve
 
 import { Stream, Streamable } from '@/vibes/soul/lib/streamable';
 import { FeaturedProductCarousel } from '@/vibes/soul/sections/featured-product-carousel';
-import { FeaturedProductList } from '@/vibes/soul/sections/featured-product-list';
 import { getSessionCustomerAccessToken } from '~/auth';
 import { Subscribe } from '~/components/subscribe';
 import { productCardTransformer } from '~/data-transformers/product-card-transformer';
@@ -73,22 +72,6 @@ export default async function Home({ params }: Props) {
     }));
   });
 
-  const streamableFeaturedProducts = Streamable.from(async () => {
-    const data = await streamablePageData;
-    const featuredProducts = removeEdgesAndNodes(data.site.featuredProducts);
-    const { defaultOutOfStockMessage, showOutOfStockMessage, showBackorderMessage } =
-      data.site.settings?.inventory ?? {};
-    const taxDisplay = data.site.settings?.tax?.plp;
-
-    return productCardTransformer(
-      featuredProducts,
-      format,
-      showOutOfStockMessage ? defaultOutOfStockMessage : undefined,
-      showBackorderMessage,
-      taxDisplay,
-    );
-  });
-
   const streamableNewestProducts = Streamable.from(async () => {
     const data = await streamablePageData;
     const newestProducts = removeEdgesAndNodes(data.site.newestProducts);
@@ -116,15 +99,6 @@ export default async function Home({ params }: Props) {
       <Hero />
 
       <CategoryGrid categories={streamableCategories} />
-
-      <FeaturedProductList
-        cta={{ label: t('FeaturedProducts.cta'), href: '/shop-all' }}
-        description={t('FeaturedProducts.description')}
-        emptyStateSubtitle={t('FeaturedProducts.emptyStateSubtitle')}
-        emptyStateTitle={t('FeaturedProducts.emptyStateTitle')}
-        products={streamableFeaturedProducts}
-        title={t('FeaturedProducts.title')}
-      />
 
       <HowItWorks />
 
