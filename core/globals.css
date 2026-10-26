@@ -7,6 +7,8 @@
 :root {
   /* Emi_Tech palette: antracite + verde "rigenerato" */
   --primary: 145 70% 55%;
+  /* Product photos come on white backgrounds: avoid grey letterbox bars in the gallery */
+  --product-gallery-image-background: hsl(var(--background));
   --accent: 145 60% 88%;
   --background: 0 0% 100%;
   --foreground: 215 20% 10%;
