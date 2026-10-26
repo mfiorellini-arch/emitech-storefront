@@ -838,5 +838,12 @@
       "invalidInput": "Please check your input and try again",
       "invalidFormat": "The value entered does not match the required format"
     }
+  },
+  "B2B": {
+    "eyebrow": "For businesses and schools",
+    "title": "Supplies for businesses, schools and public bodies",
+    "description": "Batches of refurbished PCs and servers with matching configurations, invoice and bank transfer payment.",
+    "comingSoon": "This page is in the works. In the meantime, write to us and we will reply with a quote.",
+    "cta": "Browse the catalog meanwhile"
   }
 }
