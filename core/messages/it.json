@@ -225,6 +225,16 @@
       "compare": "Confronta",
       "remove": "Rimuovi",
       "maxCompareLimit": "È stato raggiunto il numero massimo di prodotti per il confronto. Rimuovi un prodotto per aggiungerne uno nuovo."
+    },
+    "ShopAll": {
+      "title": "Tutti i prodotti",
+      "Breadcrumbs": {
+        "home": "Home"
+      },
+      "Empty": {
+        "title": "Nessun prodotto disponibile al momento.",
+        "subtitle": "Torna a trovarci, il catalogo si aggiorna spesso."
+      }
     }
   },
   "Account": {
