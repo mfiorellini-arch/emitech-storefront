@@ -35,7 +35,8 @@ const getLocale = async () => {
 };
 
 export const client = createClient({
-  storefrontToken: process.env.BIGCOMMERCE_STOREFRONT_TOKEN ?? '',
+  // Trimmed: a token pasted with a trailing newline fails the JWT shape check and takes the site down.
+  storefrontToken: (process.env.BIGCOMMERCE_STOREFRONT_TOKEN ?? '').trim(),
   storeHash: process.env.BIGCOMMERCE_STORE_HASH ?? '',
   channelId: process.env.BIGCOMMERCE_CHANNEL_ID,
   backendUserAgentExtensions: backendUserAgent,
